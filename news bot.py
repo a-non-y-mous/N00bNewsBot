@@ -21,11 +21,6 @@ def scrape_news_summaries(s):
 	for n in l:
 		print(n)
 
-def getNews():
-	text_box = browser.find_element_by_xpath("/html[@class='js serviceworker adownload cssanimations csstransitions webp webp-alpha webp-animation webp-lossless']/body[@class='web']/div[@id='app']/div[@class='_1FPJ- _39gtr app-wrapper-web']/div[@class='app _3fUe9 two']/div[@class='_3HZor _2rI9W']/div[@id='main']/footer[@class='_1N6pS']/div[@class='_2i7Ej copyable-area']/div[@class='_13mgZ']/div[@class='_3FeAD _1PRhq focused']/div[@class='_3u328 copyable-text selectable-text']") # // changed by me
-	response = "I shall fetch and send top 5 latest news once this functionality is built.\r\n"
-	text_box.send_keys(response)
-	
 
 bot_users = {} # A dictionary that stores all the users that sent activate bot 
 while True:
